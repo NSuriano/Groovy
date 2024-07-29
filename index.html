@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link />
+    <link rel="stylesheet" href="css/styles.css" />
+  
+    <title>Groovy</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="nav-superior">
+
+        <div class="nav-izquierdo">
+
+            <div class="nav-logo">
+
+                <a href="#">
+                    <img src="imagenes/grid.svg">
+                </a>
+                <a href="./index.html">
+                    <img src="imagenes/Logotipo.png" alt="logo-groovy">
+                </a>
+            </div>
+
+            <nav class="navbar">
+                <div class="espacio-trabajo">
+                    <p>Espacio de trabajo</p>
+                    <i class='bx bxs-down-arrow'></i>
+                </div>
+                <div class="espacio-reciente">
+                    <p>Reciente</p>
+                    <i class='bx bxs-down-arrow'></i>
+                </div>
+                <div class="espacio-marcado">
+                    <p>Marcado</p>
+                    <i class='bx bxs-down-arrow'></i>
+                </div>
+                <button>Crear</button>
+            </nav>
+        </div>
+
+        <div class="nav-derecho">
+
+            <div class="buscador">
+                <input placeholder="Buscar" type="text"> 
+                <i class='bx bx-search-alt-2'></i>
+                
+            </div>
+
+            <div class="config">
+                <a href="#">
+                    <img title="Notificaciones" src="imagenes/Bell.svg" alt="icono-notificaciones">
+                </a>
+                <a href="#">
+                    <img title="Configuraciones" src="imagenes/Settings.svg" alt="icono-configuraciones">
+                </a>
+                <a href="#">
+                    <img title="Ayuda" src="imagenes/help.svg" alt="icono-ayuda">
+                </a>
+            </div>
+
+            <div class="user-activo">
+                <img title="Natanael" src="imagenes/perfil.png" alt="perfil">
+            </div>
+        </div>
+    </div>
+
+
+  
+    <div class="nav-inferior" id="navbar">
+
+        <div class="nav-inferior-izq">
+            <p>Groovy gestor de incidencias!</p>
+            <i img title="Favoritos" id="btn-star" class='bx bxs-star'></i>
+            
+            <button>
+                <img src="imagenes/tabla.png" alt="">
+                Tablero
+                <i class='bx bxs-down-arrow'></i>
+            </button>
+        </div>
+
+        <div class="nav-inferior-der">
+
+            <i class='bx bxs-rocket'></i>
+            <i class='bx bxs-bolt'></i>
+            <p>
+                <i class='bx bx-filter'></i>
+                Filtros
+                <i class='bx bxs-down-arrow'></i>
+            </p>
+
+            <div img title="Usuarios" class="avatars">
+
+                <img src="imagenes/hombre.png" alt="hombre">
+                <img src="imagenes/mujer.png" alt="mujer">
+                <img src="imagenes/avatar.png" alt="avatar">
+                <img src="imagenes/uno.png" alt="mas perfiles">
+            </div>
+
+            <button class="btn-compartir">
+                <i class='bx bx-user-plus'></i>
+                Compartir
+            </button>
+            <i class='bx bx-dots-horizontal-rounded'></i>
+        </div>
+
+    </div>
+
+    </header>  
+
+    <main id="body">
+      <aside class="menu-lateral" id="menu">
+        <div class="perfil">
+          <img class="usuario" src="imagenes/perfil.png" alt="perfil" />
+          <h2>Espacio de <br />León Otero Rivas</h2>
+        </div>
+
+        <div class="flecha">
+          <button class="desplegar" id="boton">
+            <img class="flecha" src="imagenes/go.png" alt="flecha" />
+          </button>
+        </div>
+
+        <div class="opciones">
+          <p class="parrafo">Planificación</p>
+
+          <ul>
+            <li>
+              <a>
+                <i class="bx bx-plus" title="Crear Reporte"></i>Crear Reporte</a>
+              
+            </li>
+
+            <li>
+              <a href="#"
+                ><img src="imagenes/tabla.png" title="Tablero" />Tablero</a
+              >
+            </li>
+            <li>
+              <a>
+                <img
+                  src="imagenes/incidencias.png"
+                  title="Incidencias">
+                Incidencias</a>
+              
+            </li>
+            <li>
+              <a>
+                <i class="bx bx-trending-up" title="Time Line"></i>Time Line</a>
+              
+            </li>
+            <li>
+              <a href="#"><i class="bx bx-file"></i>Work Plan</a>
+            </li>
+            <li>
+              <a href="#"><i class="bx bx-user-plus"></i>Miembros</a>
+            </li>
+          </ul>
+
+          <p class="parrafo">Vistas de mi espacio de trabajo</p>
+
+          <ul>
+            <li>
+              <a href="#"
+                ><i class="bx bx-calendar" title="Calendario"></i>Calendario</a
+              >
+            </li>
+            <li>
+              <a href="#"><i class="bx bx-list-ul" title="Tabla"></i>Tabla</a>
+            </li>
+          </ul>
+
+          <p class="parrafo">Desarrollo</p>
+
+          <ul>
+            <li>
+              <a href="#"
+                ><i class="bx bx-expand-horizontal" title="Código"></i>Código</a
+              >
+            </li>
+          </ul>
+
+          <ul class="final">
+            <li>
+              <a href="#"><i class="bx bx-cog" title="Ajustes"></i>Ajustes</a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="bx bx-exit" title="Cerrar Sesión"></i>Cerrar
+                Sesión</a>
+              
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </main>
+    <script src="script/index.js"></script>
+  </body>
+</html>
