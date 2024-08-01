@@ -1,12 +1,5 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Inter:wght@100..900&family=Orbitron:wght@400..900&display=swap');
-/*{
-    $fuente-principal: #A3C8A5;
-    $color-fuente: #D9D9D9;
-    $color-secundario: #90AF92;
-    $color-acento: #369A41;
-    box-sizing: border-box;
-}*/
 
 *{
     box-sizing: border-box;
@@ -14,7 +7,7 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    
+   
 }
 
 /*header*/
@@ -23,10 +16,11 @@ header {
     width: 100%;
     cursor: pointer;
     color: #494949;
-
+     
 }
 
-.nav-superior {
+.nav-superior { 
+    width: 100%;
     background-color: #A3C8A5;
     padding: 0.5rem;
     display: flex;
@@ -47,17 +41,17 @@ header {
     align-items: center;
 
     a {
-        margin: 0 1rem;
+        margin: 0 .8rem;
     }
 }
 
 .navbar {
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    gap: 0.9rem;
     padding: 0.5rem;
-    margin-left: 2.5rem;
-    font-size: 1.2rem;
+    margin-left: .5rem;
+    font-size: 0.8rem;
 }
 
 .espacio-trabajo {
@@ -65,7 +59,7 @@ header {
     align-items: center;
 
     p {
-        padding: 0 .3rem;
+        padding: 0 .7rem;
         cursor: pointer;
       
     }
@@ -131,11 +125,12 @@ header {
 }
 
 
-.nav-superior .nav-derecho {
+.nav-derecho {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    gap: 25px;
+    justify-content: space-between;
+    gap: 30px;
+  
    
 } 
 
@@ -146,18 +141,18 @@ header {
 }
 
 .nav-superior .nav-derecho input {
-    width: 290px;
-    height: 40px;
+    width: 170px;
+    height: 30px;
     border-radius: 10px;
-    font-size: 1.2rem;
+    font-size: .8rem;
     border: none;
     padding-left: 5px;
 }    
     
 .buscador i {   
         position: absolute;
-        right: 285px;
-        font-size: 1.6rem;
+        right: 210px;
+        font-size: 1.3rem;
 
 }
    
@@ -166,15 +161,22 @@ header {
 .nav-derecho .config {
     display: flex;
     align-items: center;
-    gap: 20px;
+     gap: 15px;
 
+    img { 
+     width: 1.2rem;
+     height: 1.2rem;
+     margin: 1rem 0;
+    }
 }
+   
 
-.nav-derecho .user-activo{
-    width: 25px;
-    height: 25px;
-    margin: -16px 35px 16px 42px;
+.nav-derecho .user-activo img{
+    width: 35px;
+    height: 35px;
+    margin: 35px 0;
     align-items: center;
+    text-align: center;
 }
 
 
@@ -185,11 +187,11 @@ header {
     margin-left: 75px;
     background: #D9D9D980;
     width: calc(100%-75px);
-    height: 75px;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 25px;
+    gap: 40px;
     cursor: pointer;
 }
 
@@ -197,27 +199,36 @@ header {
     display: flex;
     align-items: center;
     gap: 30px;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     margin-right: 25px;
 
 }
 
 .nav-inferior .nav-inferior-izq {
     display: flex;
-    gap: 50px;
+    justify-content: space-between;
+    gap: 40px;
     align-items: center;
-    margin-left: 45px;
+    margin-left: 30px;
     color: #5A5A5A;
-    font-size: 1.3rem;
+    font-size: .9rem;
     font-weight: 400;
 }
 
-.nav-inferior-der .avatars {
+
+.nav-inferior-der .avatars{
     display: flex;
     align-items: center;
     gap: -23px;
     margin: 0 20px;
+      
+    img{
+        width: 25px;
+        height: 25px;
+    }
 }
+
+
 
 .nav-inferior button {
     
@@ -226,15 +237,19 @@ header {
         background: #90AF92;
         border: none;
         border-radius: 5px;
-        width: 137px;
+        width: 100px;
         height: 30px;
-        margin-left: 1.5rem;
+        margin-left: 1rem;
         transition: all.3s;
         display: flex;
         align-items: center;
-        gap: 14px;
-        font-size: 1rem;
-        padding-left: 10px;
+        gap: 8px;
+        font-size: 0.7rem;
+        padding-left: 5px;
+
+        i{
+            font-size: 1rem;
+        }
    
 }
 
@@ -276,7 +291,7 @@ ul{
 ul li {
     width: 64px;
     height: 40px;
-    font-size: 1.1rem;
+    font-size: 1rem;
     border: none;
     margin: 30px auto;
     cursor: pointer;
