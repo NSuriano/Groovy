@@ -117,6 +117,7 @@ header {
 .nav-inferior button:hover,
 .nav-superior button:hover {
     transform: scale(.9);
+    background: #678e69;
 }
 
 .nav-superior button:active,
@@ -251,6 +252,10 @@ header {
             font-size: 1rem;
         }
    
+}
+
+.bx-dots-horizontal-rounded {
+    font-size: 1.3rem;
 }
 
 
