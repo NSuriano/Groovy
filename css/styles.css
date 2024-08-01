@@ -386,6 +386,7 @@ li .bx {
 
 .body__move {
     margin-left: 215px;
+
    
 }
 
@@ -393,6 +394,7 @@ li .bx {
     width: 215px;
     position: absolute;
     left: 0;
+   
 
     .nav-inferior {
         width: calc(100%-215px);
@@ -403,6 +405,13 @@ li .bx {
     display: flex;
  
    
+   }
+
+   .flecha {
+    transform: rotatez(90deg);
+    right: -15px;
+    top: -3px;
+
    }
 
    ul {
