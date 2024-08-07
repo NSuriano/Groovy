@@ -208,14 +208,14 @@ header {
 .nav-inferior .nav-inferior-izq {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 17px;
     align-items: center;
-    margin-left: 30px;
+    margin-left: 25px;
     color: #5A5A5A;
-    font-size: .9rem;
-    font-weight: 400;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
 }
-
 
 .nav-inferior-der .avatars{
     display: flex;
@@ -433,7 +433,8 @@ li .bx {
     display: flex;
     align-items: center;
     justify-content: left;
-    gap: 7px;
+    gap: 10px;
+    
         
 }
 
