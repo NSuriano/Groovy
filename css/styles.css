@@ -264,6 +264,8 @@ header {
 main{
    margin-left: 75px;
    color: #FFFFFF;
+   display: flex;
+
 }
 
 
@@ -276,7 +278,6 @@ aside {
    position: absolute;
    font-family: "Inter", sans-serif;
    left: 0;
-   color: #FFFFFF;
    top: 75px;
 }
 
@@ -313,7 +314,7 @@ ul li a {
     text-align: center;
     gap: 35px;
     flex-wrap: nowrap;
-    color: #FFFFFF;
+    color: transparent;
 }
 
 
@@ -385,6 +386,57 @@ li .bx {
 
 }
 
+/* tablero */
+
+.tablero {
+    width: 100%;
+    height: 100%;
+    font-family: "Inter", sans-serif;
+    
+}
+
+.columna {
+    background: #90AF92;
+    width: 30%;
+    height: auto;
+    margin: 40px;
+    border-radius: 10px;
+    padding: 15px 10px;
+}
+
+.columna h3 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.columna .pie {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    margin: 5px;
+}
+
+.columna .tarjeta {
+    width: 97%;
+    height: 75px;
+    background: #D9E9DA;
+    color: #5A5A5A;
+    padding: 9px;
+    margin: 8px auto;
+    border-radius: 10px;
+    font-size: 0.9rem;
+}
+
+
+.columna .tarjetas .iconos {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 7px;
+        
+}
+
 
 
 /* clases imaginarias creadas para js */
@@ -427,6 +479,7 @@ li .bx {
 
     display: flex;
     align-items: center;
+    color: #FFFFFF;
 
  }
 
