@@ -7,7 +7,7 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <link />
+    <link rel="" href="imagenes/favicon.png"/>
     <link rel="stylesheet" href="css/styles.css" />
 
     <title>Groovy</title>
@@ -39,7 +39,7 @@
               <p>Marcado</p>
               <i class="bx bxs-down-arrow"></i>
             </div>
-            <button>Crear</button>
+            <button title="Tablero">Crear</button>
           </nav>
         </div>
 
@@ -82,7 +82,7 @@
 
           <button>
             <img src="imagenes/tabla.png" alt="" />
-            Tablero
+            Tableros
             <i class="bx bxs-down-arrow"></i>
           </button>
         </div>
@@ -196,30 +196,31 @@
         </div>
       </aside>
 
-      <section class="tablero">
-        <div class="columna">
-          <h3>Mis reportes</h3>
-
-          <div class="tarjeta">
-           <p>Lista de tareas con urgencia</p>
-
-          <div class="iconos">
-                 
-          <i class='bx bx-detail'></i>
-          <i class='bx bx-message'></i>
-          <i class='bx bx-paperclip'></i> 
-          </div>
-          
-          </div>
+      <section class="tablero" data-tablero>
+       
+        <div class="default" data-default>
+          <h3 class="titulo-lista">Mis reportes</h3>
 
           <div class="pie">
-            <span>Agregar tarjeta <i class="bx bx-plus"></i></span>
+            <button>Agregar tarjeta <i class="bx bx-plus"></i></button>
             <img src="imagenes/agrandar.png" alt="agrandar" />
           </div>
+        </div>
 
+
+        <div data-lista>
+
+        </div>
+
+
+        <div class="add-lista">
+          <button data-add>
+            <img src="imagenes/more.png" alt="boton de agregar" title="Agregar lista" />
+          </button>
         </div>
       </section>
     </main>
-    <script src="script/index.js"></script>
+    <script src="script/index.js" type="module"></script>
+    <script src="script/CrearLista.js" type="module"></script>
   </body>
 </html>
