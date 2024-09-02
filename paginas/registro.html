@@ -4,29 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../public/images/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="../public/styles/styles-login.css">
+    <link rel="shortcut icon" href="imagenes/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/registro.css">
     <!-- box-icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <title>Groovy</title>
+   
+    <title>Registro</title>
 </head>
 
 <body>
-    <button class="button" id="btn-login">Conectarse</button>
-    <button class="button" id="btn-register">Registrarse</button>
-    <dialog id="popup-login">
+    
+    <header></header>
+   
+    <main>
+
+    <aside></aside>  
+    
+    <dialog open id="popup-login">
+
         <form action="" method="get" class="formLogIn">
             <div class="buttons-container">
-                <button class="button button-social"><img src="/public/images/google.png" alt="">Google</button>
-                <button class="button button-social"><img src="/public/images/microsoft.png" alt="">Microsoft</button>
-                <button class="button button-social"><img class="img-github" src="/public/images/github.png" alt="">Github</button>
-                <button class="button button-social-mobile"><img src="/public/images/google.png" alt=""></button>
-                <button class="button button-social-mobile"><img src="/public/images/microsoft.png" alt=""></button>
-                <button class="button button-social-mobile"><img class="img-github" src="/public/images/github.png" alt=""></button>
+
+                <button class="button button-social"><img src="imagenes/google.png" alt="google">Google</button>
+                <button class="button button-social"><img src="imagenes/slack.png" alt="slack">Slack</button>
+                <button class="button button-social"><img class="img-github" src="imagenes/github.png" alt="github">Github</button>
+                
             </div>
             <div>
                 <label for="emailLogIn">Correo</label>
@@ -79,8 +85,9 @@
         </form>
     </dialog>
 
+    </main>
 
-    <script src="../public/javascript/login.js"></script>
+   
 </body>
 
 </html>
