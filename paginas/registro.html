@@ -27,6 +27,9 @@
     <dialog open id="popup-login">
 
         <form action="" method="get" class="formLogIn">
+            
+            <h3>Iniciar Sesión</h3>
+
             <div class="buttons-container">
 
                 <button class="button button-social"><img src="imagenes/google.png" alt="google">Google</button>
@@ -34,6 +37,7 @@
                 <button class="button button-social"><img class="img-github" src="imagenes/github.png" alt="github">Github</button>
                 
             </div>
+
             <div>
                 <label for="emailLogIn">Correo</label>
                 <input type="email" name="emailLogIn" id="emailLogIn" placeholder="ejemplo@gmail.com" required autocomplete="email">
@@ -46,17 +50,18 @@
                 <button class="button button-add" type="submit" value="Log In">Ingresar</button>
                 <button class="btn-close-dialog button button-cancel" type="reset">Cancelar</button>
             </div>
+            
+            <span>¿Aún no tienes cuenta? <button id="btn-register">Registrate</button></span>
         </form>
     </dialog>
     <dialog id="popup-register" >
         <form action="" method="get" class="formRegister">
+
             <div class="buttons-container">
-                <button class="button button-social"><img src="/public/images/google.png" alt="">Google</button>
-                <button class="button button-social"><img src="/public/images/microsoft.png" alt="">Microsoft</button>
-                <button class="button button-social"><img class="img-github" src="/public/images/github.png" alt="">Github</button>
-                <button class="button button-social-mobile"><img src="/public/images/google.png" alt=""></button>
-                <button class="button button-social-mobile"><img src="/public/images/microsoft.png" alt=""></button>
-                <button class="button button-social-mobile"><img class="img-github" src="/public/images/github.png" alt=""></button>
+                <button class="button button-social"><img src="imagenes/google.png" alt="">Google</button>
+                <button class="button button-social"><img src="imagenes/microsoft.png" alt="">Microsoft</button>
+                <button class="button button-social"><img class="img-github" src="imagenes/github.png" alt="">Github</button>
+               
             </div>
             <div>
                 <label for="nameRegister">Nombre</label>

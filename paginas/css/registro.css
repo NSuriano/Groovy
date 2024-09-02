@@ -37,6 +37,11 @@ dialog{
     gap: 20px;
 }
 
+h3 {
+    color: var(--gray4);
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
 
 .formRegister > div, .formLogIn > div {
     display: flex;
@@ -73,21 +78,22 @@ dialog{
     padding: 15px 40px;
     font-size: var(--fs15) ;
 }
-.formLogIn .button-social, .formRegister .button-social{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 10px 20px;
-    font-weight: var(--fw400);
-    background-color: var(--white1);
-    border-color: var(--gray2);
+
+
+.buttons-container {
+    margin: 20px 0;
 }
 
-button.button-social:hover{
-    background-color: var(--gray4);
-    color: var(--white1);
-    border-color: var(--green1);
+span {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    color: var(--green4);
 }
+
+.button-social:hover {
+    background: #232323;
+}
+
 button.button-social:hover .img-github{
     filter: invert(1);
 }
@@ -106,6 +112,19 @@ button.button-social:hover .img-github{
     color: var(--white1);
     background-color: var(--gray3);
 }
+
+#btn-register {
+    background: transparent;
+    border: 2px solid var(--green4);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#btn-register:hover {
+    background: var(--green3);
+    color: whitesmoke;
+}
+
 
 input{
     height: 40px;
