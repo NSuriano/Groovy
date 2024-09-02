@@ -5,7 +5,6 @@ const asideMenu = document.querySelector("#menu");
 const boton = document.querySelector("#boton");
 const body = document.querySelector("#body");
 const navbar= document.querySelector("#navbar");
-const parrafo = document.getElementsByTagName("[p]");
 
 boton.addEventListener("click", menuLateral);
 
