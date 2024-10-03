@@ -279,17 +279,20 @@ aside {
    font-family: "Inter", sans-serif;
    left: 0;
    top: 75px;
+   transition: ease 450ms;
 }
 
 .opciones {
-    margin-top: 40px;
+    margin-top: 80px;
 }
 
 ul{
     line-height: 3;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px auto;
     align-items: center;
+    margin-bottom: 35px;
+   
        
 }
 
@@ -299,11 +302,13 @@ ul li {
     height: 40px;
     font-size: 1rem;
     border: none;
-    margin: 30px auto;
+    margin: 20px auto;
     cursor: pointer;
     display: flex;
     align-items: center;
-    padding: 0;
+    padding: 0 5px;
+    text-align: center;
+    font-weight: bold;
     
 }
 
@@ -319,7 +324,7 @@ ul li a {
 
 
 ul li:hover {
-background: #90af92e6;
+background: #90af92;
 height: 40px;
 
 
@@ -482,7 +487,7 @@ li .bx {
 
 .body__move {
     margin-left: 215px;
-
+    transition: ease all 450ms;
    
 }
 
@@ -490,11 +495,13 @@ li .bx {
     width: 215px;
     position: absolute;
     left: 0;
+ 
    
 
     .nav-inferior {
         width: calc(100%-215px);
-
+        transition: linear all 500ms;
+        
     }
     
    .perfil {
@@ -512,6 +519,7 @@ li .bx {
 
    ul {
     margin-bottom: 35px;
+    
    }
 
    ul li a {
@@ -523,15 +531,16 @@ li .bx {
  }
 
   ul li {
-    background: #90af92c7;
+    background: #90af92;
     width: 200px;
     margin: 10px auto;
     align-items: center;
-
+    transition: linear all 390ms;
+    font-weight: 400;
   }
 
   ul li:hover {
-    background: #678e69;
+    background: #618763;
   
   }
 
