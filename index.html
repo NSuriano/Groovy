@@ -70,9 +70,9 @@
           </div>
 
           <div class="user-activo">
-            <a href="paginas/registro.html">
-            <img id="btn-login" src="imagenes/perfil.png" alt="perfil" />
-            </a>
+            <button id="btn-login">
+            <img src="imagenes/perfil.png" alt="perfil" />
+            </button>
           </div>
         </div>
       </div>
@@ -197,6 +197,81 @@
           </ul>
         </div>
       </aside>
+
+
+      <section class="dialogos">
+
+        <dialog id="popup-login">
+
+          <form action="" method="get" class="formLogIn">
+              
+              <h3 class="titulo-popup">Iniciar Sesión</h3>
+  
+              <div class="buttons-container">
+  
+                  <button class="button button-social"><img src="imagenes/google.png" alt="google">Google</button>
+                  <button class="button button-social"><img src="imagenes/slack.png" alt="slack">Slack</button>
+                  <button class="button button-social"><img class="img-github" src="imagenes/github.png" alt="github">Github</button>
+                  
+              </div>
+  
+              <div>
+                  <label for="emailLogIn">Correo</label>
+                  <input type="email" name="emailLogIn" id="emailLogIn" placeholder="ejemplo@gmail.com" required autocomplete="email">
+              </div>
+              <div>
+                  <label for="passwordLogIn" placeholder="ingresa tu contraseña">Contraseña</label>
+                  <input type="password" name="passwordLogIn" id="passwordLogIn" required autocomplete="current-password">
+              </div>
+              <div class="buttons-container">
+                  <button class="button button-add" type="submit" value="Log In">Ingresar</button>
+                  <button class="btn-close-dialog button button-cancel" type="reset">Cancelar</button>
+              </div>
+              
+              <span>¿Aún no tienes cuenta? <button id="btn-register">Registrate</button></span>
+          </form>
+      </dialog>
+  
+      <dialog id="popup-register" >
+           
+        <h3 class="titulo-popup">Registro</h3>
+
+          <form action="" method="Post" class="formRegister">
+  
+              <div class="buttons-container">
+                  <button class="button button-social"><img src="imagenes/google.png" alt="">Google</button>
+                  <button class="button button-social"><img src="imagenes/slack.png" alt="">Slack</button>
+                  <button class="button button-social"><img class="img-github" src="imagenes/github.png" alt="">Github</button>
+                 
+              </div>
+              <div>
+                  <label for="nameRegister">Nombre</label>
+                  <input type="text" name="nameRegister" id="nameRegister"
+                  placeholder="Julieta" required autocomplete="name">
+              </div>
+              <div>
+                  <label for="surnameRegister">Apellido</label>
+                  <input type="text" name="surnameRegister" id="surnameRegister"
+                  placeholder="Suarez" required>
+              </div>
+              <div>
+                  <label for="emailRegister">Correo</label>
+                  <input type="email" name="emailRegister" id="emailRegister"
+                  placeholder="ejemplo@gmail.com" required autocomplete="email">
+              </div>
+              <div>
+                  <label for="passwordRegister">Contraseña</label>
+                  <input type="password" name="passwordRegister" id="passwordRegister"
+                  placeholder="Contraseña12!" required autocomplete="current-password">
+              </div>
+              <div class="buttons-container">
+                  <button class="button button-add" type="submit" value="Register">Registrar</button>
+                  <button class="btn-close-dialog button button-cancel" type="reset">Cancelar</button>
+              </div>
+          </form>
+      </dialog>
+  
+      </section>
 
       <section class="tablero" data-tablero>
        

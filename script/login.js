@@ -10,7 +10,7 @@ var tamañoNavegador = window.innerWidth
 btnLogin.addEventListener('click', () =>{
     popupLogin.showModal();
 })
-btnRegister.addEventListener('click',() => {Ñ
+btnRegister.addEventListener('click',() => {
     popupRegister.showModal();
 })
 btnCloseDialog.forEach((btn) => btn.addEventListener('click', () =>{
